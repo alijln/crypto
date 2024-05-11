@@ -12,6 +12,7 @@ function App() {
       // If not, set the initial state to false
       setLoginState("false");
       console.log('test');
+      console.log('test');
     }
   }, []);
 
