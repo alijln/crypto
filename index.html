@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image" href="/public/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cryptio Market</title>
+  <link rel="manifest" href="./manifest.json">
+  <link rel="apple-touch-icon" href="/public/logo.png">
+  <meta name="apple-mobile-web-app-status-bar" content="#3a1151">
+  <meta name="theme-color" content="#3a1151">
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./serviceWorker.js')
+          .then((res) => console.log(res))
+      })
+    }
+  </script>
+</body>
+
+</html>

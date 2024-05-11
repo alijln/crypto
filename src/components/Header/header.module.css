@@ -1,0 +1,31 @@
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 6%;
+}
+
+.header div{
+    width: 50px;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+}
+
+.userPhoto{
+    border-radius: 50%;
+}
+
+
+img{
+    width: 100%;
+}
+
+.bar{
+    display: flex;
+    align-items: center;
+}
+.bar img{
+    width: 50%;
+}

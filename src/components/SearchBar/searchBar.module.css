@@ -1,0 +1,38 @@
+.searchBar {
+    width: 100%;
+    padding: 0 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px 6%;
+}
+
+
+input {
+    padding: 22px 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(215, 215, 215);
+    width: 100%;
+}
+
+input::placeholder{
+    color: rgb(215, 215, 215);
+    font-size: 16px;
+}
+
+
+.searchBtn {
+    background-color: #3A1151;
+    width: 80px;
+    height: 60px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: white;
+}
+
+svg {
+    width: 36%;
+}

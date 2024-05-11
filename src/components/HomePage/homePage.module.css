@@ -1,0 +1,16 @@
+
+
+.heading{
+    padding: 0 6%;
+}
+
+.welcome{
+    font-size: 18px;
+    color: rgb(128, 128, 128);
+}
+
+.title{
+    font-size: 25px;
+    padding-right: 80px;
+    line-height: 1.5;
+}

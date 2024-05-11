@@ -1,0 +1,30 @@
+
+
+.filterBtn{
+    border: 1px solid rgb(215, 215, 215);
+    color: rgb(107, 107, 107);
+    padding: 10px 15px;
+    font-size: 14px;
+    margin: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 300ms;
+
+}
+
+.filterBtn:hover{
+    color: black;
+    border: 1px solid black;
+    transition: 300ms;
+}
+
+.activeBtn{
+    background-color: #3A1151;
+    color: white;
+    border: none;
+}
+
+.activeBtn:hover{
+    color: white;
+    border: none;
+}

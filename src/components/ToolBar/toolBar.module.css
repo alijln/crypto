@@ -1,0 +1,21 @@
+.toolBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    bottom: 0;
+    fill: rgba(0, 0, 0, 0.306);
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.16);
+}
+
+svg{
+    width: 23px;
+    box-sizing: content-box;
+    padding: 25px;
+}
+
+.currentPage{
+    fill: black;
+}
