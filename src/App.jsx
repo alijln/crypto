@@ -11,6 +11,7 @@ function App() {
     if (storedIsLogin === null) {
       // If not, set the initial state to false
       setLoginState("false");
+      console.log('test');
     }
   }, []);
 
